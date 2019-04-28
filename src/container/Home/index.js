@@ -15,7 +15,7 @@ class Home extends Component {
     render(){
         return (
             <div>
-                <h1>Home</h1>
+                <h1>Home Updated</h1>
                 <button onClick={() => this.handleClick('data')}>Click me</button>
                 <button onClick={ this.handleunboundClick}>get count</button>
                 <div id="text-align" className="blue-div">
