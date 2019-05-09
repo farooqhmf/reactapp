@@ -20,9 +20,6 @@ class Home extends Component {
                 <button onClick={ this.handleunboundClick}>get count</button>
                 <div id="text-align" className="blue-div">
                     <div className="blue-div-child">
-                      <p>Blue</p>
-                      <p>BlueBlueBlueBlue</p>
-                      <p>BlueBlue</p>
                     </div>
                 </div>
                 <div id="margin-auto" className="yellow-div">

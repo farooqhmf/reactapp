@@ -1,13 +1,15 @@
 
 .blue-div {
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .blue-div-child {
     display: inline-block;
-    background-color: blue;
-    background: blue;
     min-width: 200px;
     min-height: 200px;
+    border: 2px solid blue;
+    border-radius: 15px 50px
     /*animation: rotation infinite 20s linear;*/
 }
 
@@ -26,7 +28,7 @@
 
 .yellow-div-child {
     margin: 3rem auto;
-    background-color: yellow;
+    border: 2px solid yellow;
     width: 200px;
     height: 200px;
 }
@@ -44,7 +46,7 @@
     /*top: 50%;*/
     /*margin-left: 50px;*/
     /*transform: translate(-50%, -50%);*/
-    background-color: green;
+    border: 2px solid green;
     width: 200px;
     height: 200px;
 }
