@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import './styles.css';
+import { Button } from 'antd';
 
 class Home extends Component {
 
@@ -15,9 +16,9 @@ class Home extends Component {
     render(){
         return (
             <div>
-                <h1>Home Updated</h1>
-                <button onClick={() => this.handleClick('data')}>Click me</button>
-                <button onClick={ this.handleunboundClick}>get count</button>
+                <h1>Home</h1>
+                <Button onClick={() => this.handleClick('data')}>Click me</Button>
+                <Button onClick={ this.handleunboundClick}>get count</Button>
                 <div id="text-align" className="blue-div">
                     <div className="blue-div-child">
                     </div>
